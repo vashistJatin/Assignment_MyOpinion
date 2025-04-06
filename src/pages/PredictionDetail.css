@@ -18,11 +18,11 @@
     cursor: pointer;
     border: none;
     border-radius: 6px;
-    background-color: #eee;
+    background-color: green;
   }
   
   .buttons button:hover {
-    background-color: #ddd;
+    background-color: rgb(55, 138, 55);
 }
 
 input {
