@@ -10,3 +10,16 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
 }
+/* Medium screens: 2 cards per row */
+@media (max-width: 900px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Small screens: 1 card per row */
+@media (max-width: 600px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+}
